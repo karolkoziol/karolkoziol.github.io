@@ -1,0 +1,62 @@
+/*
+Original design: Basic Profile (v2.0 - Sep 11, 2012) - A free xhtml/css website template by Andreas Viklund.
+For more information, see http://andreasviklund.com/templates/basic-profile/
+*/
+
+*{margin:0; padding:0;}
+body {background:#fff url(background.jpg) top center no-repeat; color:#303030; font:84% Arial,Helvetica,sans-serif; line-height:1.6em;}
+a {color:#1B62A9; text-decoration:none;}
+a:hover {text-decoration:underline;}
+p,ul,ol,dl {margin:0 0 0 0;}
+h1 {color:#888; font-size:3.2em; line-height:1.1em; letter-spacing:-1px; margin:20px 0 0 0;}
+h1 a {color:#1B62A9; text-transform:none;}
+h2 {font-size:2.2em; color:#333; margin:0 0 20px; letter-spacing:-1px; border-bottom:2px solid #eee;}
+h3 {font-size:1.8em; margin:10px 0 15px 0; letter-spacing:-1px; border-bottom:2px solid #eee;}
+h1,h2,h3 {font-weight:700; line-height:1.4em;}
+#wrap {color:#303030; margin:40px auto; padding:0; width:980px;}
+content {text-align:center; width:600px; padding-right:0;}
+.slogan {color:#888; font-size:1.4em; font-weight:700; margin:0 0 0 0; letter-spacing:-1px;}
+.readmore {text-align:right; margin:0 20px 30px 0;}
+.timestamp {display:block; font-weight:700; color:#888; text-align:right; width:150px; padding:20px 20px 20px 0; float:left; margin:0 20px 20px 0; border-right:2px solid #eee;}
+.timestamp a {font-weight:normal;}
+.credits {display:block; clear:left; font-size:0.9em; color:#aaa; margin:20px 0;}
+.credits a {color:#888;}
+.clear {clear:both;}
+
+
+
+table.blueTable {
+  background-color: #FFFCC1;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 4px 2px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #D0E4F5;
+}
+
+
+
+* {
+box-sizing: border-box;
+}
+.column {
+float: left;
+width: 33.33%;
+padding: 20px;
+height: 430px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
